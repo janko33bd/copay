@@ -242,7 +242,7 @@ angular.module('copayApp.controllers').controller('walletHomeController', functi
 
   this.shareAddress = function(addr) {
     if (isCordova) {
-      window.plugins.socialsharing.share('bitcoin:' + addr, null, null, null);
+      window.plugins.socialsharing.share('blackcoin:' + addr, null, null, null);
     }
   };
 
@@ -780,8 +780,8 @@ angular.module('copayApp.controllers').controller('walletHomeController', functi
     var satToUnit = 1 / this.unitToSatoshi;
 
     // URI extensions for Payment Protocol with non-backwards-compatible request
-    if ((/^bitcoin:\?r=[\w+]/).exec(uri)) {
-      uri = decodeURIComponent(uri.replace('bitcoin:?r=', ''));
+    if ((/^blackcoin:\?r=[\w+]/).exec(uri)) {
+      uri = decodeURIComponent(uri.replace('blackcoin:?r=', ''));
       this.setFromPayPro(uri, function(err) {
         if (err) {
           return err;
@@ -824,7 +824,7 @@ angular.module('copayApp.controllers').controller('walletHomeController', functi
     if (this._paypro)
       return value;
 
-    if (value.indexOf('bitcoin:') === 0) {
+    if (value.indexOf('blackcoin:') === 0) {
       return this.setFromUri(value);
     } else if (/^https?:\/\//.test(value)) {
       return this.setFromPayPro(value);

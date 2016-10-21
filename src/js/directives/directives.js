@@ -34,7 +34,7 @@ angular.module('copayApp.directives')
             }
 
             // Bip21 uri
-            if (/^bitcoin:/.test(value)) {
+            if (/^blackcoin:/.test(value)) {
               var uri, isAddressValid;
               var isUriValid = URI.isValid(value);
               if (isUriValid) {

@@ -21,8 +21,6 @@ angular.module('copayApp.controllers').controller('indexController', function($r
   ret.prevState = 'walletHome';
   ret.physicalScreenWidth = ((window.innerWidth > 0) ? window.innerWidth : screen.width);
 
-  ret.appConfig = window.appConfig;
-
   // Only for testing
   //storageService.checkQuota();
 
@@ -571,7 +569,7 @@ angular.module('copayApp.controllers').controller('indexController', function($r
   self.updateColor = function() {
     var config = configService.getSync();
     config.colorFor = config.colorFor || {};
-    self.backgroundColor = config.colorFor[self.walletId] || '#4A90E2';
+    self.backgroundColor = config.colorFor[self.walletId] || '#D0B136';
     var fc = profileService.focusedClient;
     fc.backgroundColor = self.backgroundColor;
     if (isCordova && StatusBar.isVisible) {
@@ -1693,7 +1691,7 @@ angular.module('copayApp.controllers').controller('indexController', function($r
 
       var config = configService.getSync();
 
-      $scope.color = config.colorFor[txp.walletId] || '#4A90E2';
+      $scope.color = config.colorFor[txp.walletId] || '#D0B136';
       $scope.tx = txFormatService.processTx(txp);
 
       self.confirmationPopup = $ionicPopup.show({

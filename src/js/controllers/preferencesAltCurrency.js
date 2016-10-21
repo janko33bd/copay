@@ -13,7 +13,7 @@ angular.module('copayApp.controllers').controller('preferencesAltCurrencyControl
       rateService.whenAvailable(function() {
         completeAlternativeList = rateService.listAlternatives();
         lodash.remove(completeAlternativeList, function(c) {
-          return c.isoCode == 'BTC';
+          return c.isoCode == 'BLK';
         });
         $scope.altCurrencyList = completeAlternativeList.slice(0, next);
       });

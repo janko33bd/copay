@@ -24,7 +24,7 @@ msgstr "(Trusted)"
 
 #: src/js/controllers/walletHome.js
 msgid "{{fee}} will be deducted for bitcoin networking fees"
-msgstr "{{fee}} will be deducted for bitcoin networking fees"
+msgstr "{{fee}} will be deducted for blackcoin networking fees"
 
 #: public/views/copayers.html
 #: public/views/walletHome.html
@@ -44,8 +44,8 @@ msgid "* A payment proposal can be deleted if 1) you are the creator, and no oth
 msgstr "* Een betalingsvoorstel kan worden verwijderd als 1) u de aanmaker bent, en geen andere medebetaler heeft ondertekend, of 2) 24 uur zijn verstreken sinds het voorstel werd aangemaakt."
 
 #: public/views/disclaimer.html
-msgid "<b>IF YOU LOSE ACCESS TO YOUR COPAY WALLET OR YOUR ENCRYPTED PRIVATE KEYS AND YOU HAVE NOT SEPARATELY STORED A BACKUP OF YOUR WALLET AND CORRESPONDING PASSWORD, YOU ACKNOWLEDGE AND AGREE THAT ANY BITCOIN YOU HAVE ASSOCIATED WITH THAT COPAY WALLET WILL BECOME INACCESSIBLE.</b>"
-msgstr "<b>IF YOU LOSE ACCESS TO YOUR COPAY WALLET OR YOUR ENCRYPTED PRIVATE KEYS AND YOU HAVE NOT SEPARATELY STORED A BACKUP OF YOUR WALLET AND CORRESPONDING PASSWORD, YOU ACKNOWLEDGE AND AGREE THAT ANY BITCOIN YOU HAVE ASSOCIATED WITH THAT COPAY WALLET WILL BECOME INACCESSIBLE.</b>"
+msgid "<b>IF YOU LOSE ACCESS TO YOUR PAYBLK WALLET OR YOUR ENCRYPTED PRIVATE KEYS AND YOU HAVE NOT SEPARATELY STORED A BACKUP OF YOUR WALLET AND CORRESPONDING PASSWORD, YOU ACKNOWLEDGE AND AGREE THAT ANY BLACKS YOU HAVE ASSOCIATED WITH THAT PAYBLK WALLET WILL BECOME INACCESSIBLE.</b>"
+msgstr "<b>IF YOU LOSE ACCESS TO YOUR PAYBLK WALLET OR YOUR ENCRYPTED PRIVATE KEYS AND YOU HAVE NOT SEPARATELY STORED A BACKUP OF YOUR WALLET AND CORRESPONDING PASSWORD, YOU ACKNOWLEDGE AND AGREE THAT ANY BLACKCOIN YOU HAVE ASSOCIATED WITH THAT PAYBLK WALLET WILL BECOME INACCESSIBLE.</b>"
 
 #: public/views/backup.html
 msgid "<b>OR</b> 1 wallet export file and the remaining quorum of wallet seeds (e.g. in a 3-5 wallet: 1 wallet export file + 2 wallet seeds of any of the other copayers)."
@@ -61,11 +61,11 @@ msgstr "<b>OR</b> the wallet seeds of <b>all</b> copayers in the wallet"
 
 #: public/views/splash.html
 msgid "A multisignature bitcoin wallet"
-msgstr "A multisignature bitcoin wallet"
+msgstr "A multisignature blackcoin wallet"
 
 #: public/views/preferences.html
 msgid "About Copay"
-msgstr "About Copay"
+msgstr "About Payblk"
 
 #: public/views/modals/txp-details.html
 #: src/js/services/confirmDialog.js
@@ -117,7 +117,7 @@ msgstr "Alias for <i>{{index.walletName}}</i>"
 
 #: public/views/translators.html
 msgid "All contributions to Copay's translation are welcome. Sign up at crowdin.com and join the Copay project at"
-msgstr "All contributions to Copay's translation are welcome. Sign up at crowdin.com and join the Copay project at"
+msgstr "All contributions to Payblk's translation are welcome. Sign up at crowdin.com and join the Payblk project at"
 
 #: public/views/disclaimer.html
 msgid "All transaction requests are irreversible."
@@ -202,19 +202,19 @@ msgstr "Before receiving funds, it is highly recommended you backup your wallet 
 
 #: public/views/walletHome.html
 msgid "Bitcoin address"
-msgstr "Bitcoin address"
+msgstr "Blackcoin address"
 
 #: public/views/preferences.html
 msgid "Bitcoin Network Fee Policy"
-msgstr "Bitcoin Network Fee Policy"
+msgstr "Blackcoin Network Fee Policy"
 
 #: public/views/preferencesFee.html
 msgid "Bitcoin transactions may include a fee collected by miners on the network. The higher the fee, the greater the incentive a miner has to include that transaction in a block. Actual fees are determined based on network load and the selected policy."
-msgstr "Bitcoin transactions may include a fee collected by miners on the network. The higher the fee, the greater the incentive a miner has to include that transaction in a block. Actual fees are determined based on network load and the selected policy."
+msgstr "Blackcoin transactions may include a fee collected by miners on the network. The higher the fee, the greater the incentive a miner has to include that transaction in a block. Actual fees are determined based on network load and the selected policy."
 
 #: public/views/paymentUri.html
 msgid "Bitcoin URI is NOT valid!"
-msgstr "Bitcoin URI is NOT valid!"
+msgstr "Blackcoin URI is NOT valid!"
 
 #: public/views/modals/txp-details.html
 msgid "Broadcast Payment"
@@ -309,19 +309,19 @@ msgstr "Connecting to {{join.hwWallet}} Wallet..."
 
 #: src/js/services/bwsError.js
 msgid "Copayer already in this wallet"
-msgstr "Copayer already in this wallet"
+msgstr "Payblker already in this wallet"
 
 #: src/js/services/bwsError.js
 msgid "Copayer already voted on this spend proposal"
-msgstr "Copayer already voted on this spend proposal"
+msgstr "Payblker already voted on this spend proposal"
 
 #: src/js/services/bwsError.js
 msgid "Copayer data mismatch"
-msgstr "Copayer data mismatch"
+msgstr "Payblker data mismatch"
 
 #: public/views/modals/copayers.html
 msgid "Copayers"
-msgstr "Copayers"
+msgstr "Payblkers"
 
 #: src/js/controllers/copayers.js
 #: src/js/controllers/export.js
@@ -403,7 +403,7 @@ msgstr "Could not join wallet"
 
 #: src/js/controllers/walletHome.js
 msgid "Could not recognize a valid Bitcoin QR Code"
-msgstr "Could not recognize a valid Bitcoin QR Code"
+msgstr "Could not recognize a valid Blackcoin QR Code"
 
 #: src/js/controllers/walletHome.js
 msgid "Could not reject payment"
@@ -680,7 +680,7 @@ msgstr "Hardware Wallet"
 
 #: public/views/import.html
 msgid "Have a Backup from Copay v0.9?"
-msgstr "Have a Backup from Copay v0.9?"
+msgstr "Have a Backup from Payblk v0.9?"
 
 #: public/views/create.html
 #: public/views/import.html
@@ -744,8 +744,8 @@ msgid "Importing..."
 msgstr "Importing..."
 
 #: public/views/disclaimer.html
-msgid "In no event shall the authors of the software, employees and affiliates of Bitpay, copyright holders, or BitPay, Inc. be held liable for any claim, damages or other liability, whether in an action of contract, tort, or otherwise, arising from, out of or in connection with the software."
-msgstr "In no event shall the authors of the software, employees and affiliates of Bitpay, copyright holders, or BitPay, Inc. be held liable for any claim, damages or other liability, whether in an action of contract, tort, or otherwise, arising from, out of or in connection with the software."
+msgid "In no event shall the authors of the software, employees, copyright holders, be held liable for any claim, damages or other liability, whether in an action of contract, tort, or otherwise, arising from, out of or in connection with the software."
+msgstr "In no event shall the authors of the software, employees, copyright holders, be held liable for any claim, damages or other liability, whether in an action of contract, tort, or otherwise, arising from, out of or in connection with the software."
 
 #: src/js/services/bwsError.js
 msgid "Incorrect address network"
@@ -769,7 +769,7 @@ msgstr "Invalid address"
 
 #: src/js/controllers/copayers.js
 msgid "Invitation to share a Copay Wallet"
-msgstr "Invitation to share a Copay Wallet"
+msgstr "Invitation to share a Payblk Wallet"
 
 #: public/views/translators.html
 msgid "Italian"
@@ -790,7 +790,7 @@ msgstr "Join"
 
 #: src/js/controllers/copayers.js
 msgid "Join my Copay wallet. Here is the invitation code: {{secret}} You can download Copay for your phone or desktop at https://copay.io"
-msgstr "Join my Copay wallet. Here is the invitation code: {{secret}} You can download Copay for your phone or desktop at https://copay.io"
+msgstr "Join my Payblk wallet. Here is the invitation code: {{secret}} You can download Payblk for your phone or desktop at https://copay.io"
 
 #: public/views/add.html
 msgid "Join shared wallet"
@@ -814,7 +814,7 @@ msgstr "Last Wallet Addresses"
 
 #: public/views/backup.html
 msgid "Learn more about Copay backups"
-msgstr "Learn more about Copay backups"
+msgstr "Learn more about Payblk backups"
 
 #: public/views/importLegacy.html
 msgid "Learn more about Wallet Migration"
@@ -877,7 +877,7 @@ msgstr "Multisignature wallet"
 
 #: public/views/walletHome.html
 msgid "My Bitcoin address"
-msgstr "My Bitcoin address"
+msgstr "My Blackcoin address"
 
 #: public/views/paymentUri.html
 msgid "Network"
@@ -1012,11 +1012,11 @@ msgstr "Payment Proposal Rejected"
 
 #: src/js/services/notificationsService.js
 msgid "Payment Proposal Rejected by Copayer"
-msgstr "Payment Proposal Rejected by Copayer"
+msgstr "Payment Proposal Rejected by Payblker"
 
 #: src/js/services/notificationsService.js
 msgid "Payment Proposal Signed by Copayer"
-msgstr "Payment Proposal Signed by Copayer"
+msgstr "Payment Proposal Signed by Payblker"
 
 #: public/views/walletHome.html
 msgid "Payment Proposals"
@@ -1084,7 +1084,7 @@ msgstr "Please enter the wallet seed"
 
 #: src/js/services/bwsError.js
 msgid "Please upgrade Copay to perform this action"
-msgstr "Please upgrade Copay to perform this action"
+msgstr "Please upgrade Payblk to perform this action"
 
 #: src/js/controllers/import.js
 msgid "Please, select your backup file"
@@ -1399,8 +1399,8 @@ msgid "Testnet"
 msgstr "Testnet"
 
 #: public/views/disclaimer.html
-msgid "The authors of the software, employees and affiliates of Bitpay, copyright holders, and BitPay, Inc. cannot retrieve your private keys or passwords if you lose or forget them and cannot guarantee transaction confirmation as they do not have control over the Bitcoin network."
-msgstr "The authors of the software, employees and affiliates of Bitpay, copyright holders, and BitPay, Inc. cannot retrieve your private keys or passwords if you lose or forget them and cannot guarantee transaction confirmation as they do not have control over the Bitcoin network."
+msgid "The authors of the software, employees, copyright holders, cannot retrieve your private keys or passwords if you lose or forget them and cannot guarantee transaction confirmation as they do not have control over the Bitcoin network."
+msgstr "The authors of the software, employees, copyright holders, cannot retrieve your private keys or passwords if you lose or forget them and cannot guarantee transaction confirmation as they do not have control over the Blackcoin network."
 
 #: src/js/services/ledger.js
 msgid "The Ledger Chrome application is not installed"
@@ -1432,8 +1432,8 @@ msgid "The seed could require a passphrase to be imported"
 msgstr "The seed could require a passphrase to be imported"
 
 #: public/views/disclaimer.html
-msgid "The software does not constitute an account where BitPay or other third parties serve as financial intermediaries or custodians of your bitcoin."
-msgstr "The software does not constitute an account where BitPay or other third parties serve as financial intermediaries or custodians of your bitcoin."
+msgid "The software does not constitute an account where other third parties serve as financial intermediaries or custodians of your bitcoin."
+msgstr "The software does not constitute an account where other third parties serve as financial intermediaries or custodians of your blackcoin."
 
 #: public/views/disclaimer.html
 msgid "The software you are about to use functions as a free, open source, and multi-signature digital wallet."
@@ -1594,7 +1594,7 @@ msgstr "Wallet Already Imported:"
 
 #: src/js/services/profileService.js
 msgid "Wallet already in Copay:"
-msgstr "Wallet already in Copay:"
+msgstr "Wallet already in Payblk:"
 
 #: public/views/preferencesInformation.html
 msgid "Wallet Configuration (m-n)"
@@ -1718,7 +1718,7 @@ msgstr "We reserve the right to modify this disclaimer from time to time."
 
 #: public/views/splash.html
 msgid "WELCOME TO COPAY"
-msgstr "WELCOME TO COPAY"
+msgstr "WELCOME TO PAYBLK"
 
 #: public/views/disclaimer.html
 msgid "While the software has undergone beta testing and continues to be improved by feedback from the open-source user and developer community, we cannot guarantee that there will be no bugs in the software."

@@ -29,7 +29,7 @@ msgstr "[Υπόλοιπο Κρυμένο]"
 
 #: src/js/controllers/walletHome.js
 msgid "{{fee}} will be deducted for bitcoin networking fees"
-msgstr "{{fee}}, θα προεξοφληθεί ώς τέλος του δικτύου bitcoin"
+msgstr "{{fee}}, θα προεξοφληθεί ώς τέλος του δικτύου blackcoin"
 
 #: public/views/includes/confirm-tx.html
 msgid "{{feeRateStr}} of the transaction"
@@ -57,8 +57,8 @@ msgid "* A payment proposal can be deleted if 1) you are the creator, and no oth
 msgstr "Μια πρόταση πληρωμής μπορεί να διαγραφεί εάν 1) είστε ο δημιουργός, και κανένας άλλος χρήστης του copay δεν έχει υπογράψει, ή 2) έχουν περάσει 24 ώρες απο την ώρα που η πρόταση δημιουργήθηκε."
 
 #: public/views/includes/terms.html
-msgid "<b>IF YOU LOSE ACCESS TO YOUR COPAY WALLET OR YOUR ENCRYPTED PRIVATE KEYS AND YOU HAVE NOT SEPARATELY STORED A BACKUP OF YOUR WALLET AND CORRESPONDING PASSWORD, YOU ACKNOWLEDGE AND AGREE THAT ANY BITCOIN YOU HAVE ASSOCIATED WITH THAT COPAY WALLET WILL BECOME INACCESSIBLE.</b>"
-msgstr "<b>ΕΑΝ ΧΑΣΕΤΕ ΤΗΝ ΠΡΟΣΒΑΣΗ ΝΑ ΣΑΣ ΣΤΟ ΠΟΡΤΟΦΌΛΙ COPAY Ή ΣΤΑ ΚΡΥΠΤΟΓΡΑΦΗΜΕΝΑ ΙΔΙΩΤΙΚΑ ΣΑΣ ΚΛΕΙΔΙΑ ΚΑΙ ΔΕΝ ΑΠΟΘΗΚΕΥΣΑΤΕ ΧΩΡΙΣΤΆ ΕΝΑ ΑΝΤΙΓΡΑΦΟ ΑΣΦΑΛΕΙΑΣ ΤΟΥ ΠΟΡΤΟΦΟΛΙΟΥ ΚΑΙ ΤΟΥ ΑΝΤΙΣΤΟΙΧΟΥ ΚΩΔΙΚΟΥ ΠΡΌΣΒΑΣΗΣ, ΑΠΟΔΕΧΕΣΤΕ ΚΑΙ ΣΥΜΦΩΝΕΙΤΕ ΟΤΙ ΟΠΟΙΑΔΗΠΟΤΕ ΠΟΣΟΤΗΤΑ BITCOIN ΠΟΥ ΕΧΕΤΕ ΣΥΣΧΕΤΙΣΕΙ ΜΕ ΤΟ ΠΟΡΤΟΦΟΛΙ ΤΟΥ COPAY ΘΑ ΓΙΝΟΥΝ ΑΠΡΟΣΠΕΛΑΣΤΑ.</b>"
+msgid "<b>IF YOU LOSE ACCESS TO YOUR PAYBLK WALLET OR YOUR ENCRYPTED PRIVATE KEYS AND YOU HAVE NOT SEPARATELY STORED A BACKUP OF YOUR WALLET AND CORRESPONDING PASSWORD, YOU ACKNOWLEDGE AND AGREE THAT ANY BLACKCOINS YOU HAVE ASSOCIATED WITH THAT PAYBLK WALLET WILL BECOME INACCESSIBLE.</b>"
+msgstr "<b>ΕΑΝ ΧΑΣΕΤΕ ΤΗΝ ΠΡΟΣΒΑΣΗ ΝΑ ΣΑΣ ΣΤΟ ΠΟΡΤΟΦΌΛΙ PAYBLK Ή ΣΤΑ ΚΡΥΠΤΟΓΡΑΦΗΜΕΝΑ ΙΔΙΩΤΙΚΑ ΣΑΣ ΚΛΕΙΔΙΑ ΚΑΙ ΔΕΝ ΑΠΟΘΗΚΕΥΣΑΤΕ ΧΩΡΙΣΤΆ ΕΝΑ ΑΝΤΙΓΡΑΦΟ ΑΣΦΑΛΕΙΑΣ ΤΟΥ ΠΟΡΤΟΦΟΛΙΟΥ ΚΑΙ ΤΟΥ ΑΝΤΙΣΤΟΙΧΟΥ ΚΩΔΙΚΟΥ ΠΡΌΣΒΑΣΗΣ, ΑΠΟΔΕΧΕΣΤΕ ΚΑΙ ΣΥΜΦΩΝΕΙΤΕ ΟΤΙ ΟΠΟΙΑΔΗΠΟΤΕ ΠΟΣΟΤΗΤΑ BLACKCOIN ΠΟΥ ΕΧΕΤΕ ΣΥΣΧΕΤΙΣΕΙ ΜΕ ΤΟ ΠΟΡΤΟΦΟΛΙ ΤΟΥ PAYBLK ΘΑ ΓΙΝΟΥΝ ΑΠΡΟΣΠΕΛΑΣΤΑ.</b>"
 
 #: public/views/backup.html
 msgid "<b>OR</b> 1 wallet export file and the remaining quorum of wallet recovery phrases (e.g. in a 3-5 wallet: 1 wallet export file + 2 wallet recovery phrases of any of the other copayers)."
@@ -74,7 +74,7 @@ msgstr ""
 
 #: public/views/disclaimer.html
 msgid "A multisignature bitcoin wallet"
-msgstr "Ένα πορτοφόλι bitcoin με δυνατότητα πολλαπλών υπογραφών"
+msgstr "Ένα πορτοφόλι blackcoin με δυνατότητα πολλαπλών υπογραφών"
 
 #: public/views/preferencesGlobal.html
 msgid "About Copay"
@@ -245,19 +245,19 @@ msgstr "διαδρομή BIP32 για παραγωγή διεύθυνσης"
 
 #: public/views/walletHome.html
 msgid "Bitcoin address"
-msgstr "Διεύθυνση Bitcoin"
+msgstr "Διεύθυνση Blackcoin"
 
 #: public/views/preferencesGlobal.html
 msgid "Bitcoin Network Fee Policy"
-msgstr "Πολιτική Χρέωσης Δικτύου Bitcoin"
+msgstr "Πολιτική Χρέωσης Δικτύου Blackcoin"
 
 #: public/views/preferencesFee.html
 msgid "Bitcoin transactions may include a fee collected by miners on the network. The higher the fee, the greater the incentive a miner has to include that transaction in a block. Current fees are determined based on network load and the selected policy."
-msgstr "Οι συναλλαγές Bitcoin μπορεί να περιλαμβάνουν μια αμοιβή που εισπράττουν οι miners του δικτύου. Όσο υψηλότερο είναι αυτό το τέλος, τόσο μεγαλύτερο είναι και το κίνητρο ενός miner να συμπεριλάβει αυτή τη συναλλαγή σε ένα block. Οι παρουσιαζόμενη αμοιβή καθορίζεται με βάση το φορτίο του δικτύου και την επιλεγμένη πολιτική."
+msgstr "Οι συναλλαγές Blackcoin μπορεί να περιλαμβάνουν μια αμοιβή που εισπράττουν οι miners του δικτύου. Όσο υψηλότερο είναι αυτό το τέλος, τόσο μεγαλύτερο είναι και το κίνητρο ενός miner να συμπεριλάβει αυτή τη συναλλαγή σε ένα block. Οι παρουσιαζόμενη αμοιβή καθορίζεται με βάση το φορτίο του δικτύου και την επιλεγμένη πολιτική."
 
 #: public/views/paymentUri.html
 msgid "Bitcoin URI is NOT valid!"
-msgstr "Το σύστημα Bitcoin URI δεν είναι έγκυρο!"
+msgstr "Το σύστημα Blackcoin URI δεν είναι έγκυρο!"
 
 #: public/views/modals/txp-details.html
 msgid "Broadcast Payment"
@@ -847,8 +847,8 @@ msgid "Importing Wallet..."
 msgstr ""
 
 #: public/views/includes/terms.html
-msgid "In no event shall the authors of the software, employees and affiliates of Bitpay, copyright holders, or BitPay, Inc. be held liable for any claim, damages or other liability, whether in an action of contract, tort, or otherwise, arising from, out of or in connection with the software."
-msgstr "Σε καμία περίπτωση οι συντάκτες του λογισμικού, οι συνεργάτες του Bitpay, οι κατόχοι πνευματικών δικαιωμάτων, ή η BitPay α.ε. ευθύνεται για οποιαδήποτε αξίωση, ζημία ή άλλη ευθύνη, είτε βαση κάποιας σύμβασης, αδικοπραξίας, ή άλλο, που προκύπτει από την σχέση σας με το λογισμικό."
+msgid "In no event shall the authors of the software, employees, copyright holders, be held liable for any claim, damages or other liability, whether in an action of contract, tort, or otherwise, arising from, out of or in connection with the software."
+msgstr "Σε καμία περίπτωση οι συντάκτες του λογισμικού, οι συνεργάτες του, οι κατόχοι πνευματικών δικαιωμάτων, ή η ευθύνεται για οποιαδήποτε αξίωση, ζημία ή άλλη ευθύνη, είτε βαση κάποιας σύμβασης, αδικοπραξίας, ή άλλο, που προκύπτει από την σχέση σας με το λογισμικό."
 
 #: public/views/backup.html
 msgid "In order to verify your wallet backup, please type your password:"
@@ -1013,7 +1013,7 @@ msgstr "Πολλαπλοί παραλήπτες"
 
 #: public/views/walletHome.html
 msgid "My Bitcoin address"
-msgstr "Η  διεύθυνση Bitcoin μου"
+msgstr "Η  διεύθυνση Blackcoin μου"
 
 #: public/views/modals/addressbook.html
 msgid "My contacts"
@@ -1633,8 +1633,8 @@ msgid "Terms of Use"
 msgstr "Όροι Χρήσης"
 
 #: public/views/includes/terms.html
-msgid "The authors of the software, employees and affiliates of Bitpay, copyright holders, and BitPay, Inc. cannot retrieve your private keys or passwords if you lose or forget them and cannot guarantee transaction confirmation as they do not have control over the Bitcoin network."
-msgstr "Οι συγγραφείς του λογισμικού, οι εργαζόμενοι και οι συνεργάτες του Bitpay, οι κατόχοι πνευματικών δικαιωμάτων, και η BitPay α.ε., δεν μπορούν να ανακτήσουν ιδιωτικά κλειδιά ή τους κωδικούς πρόσβασης σας, εάν χάσετε ή ξεχασετε αυτούς και δεν μπορούν να εγγυηθούν την επιβεβαίωση της συναλλαγής, δεδομένου ότι δεν έχουν τον έλεγχο του δικτύου Bitcoin."
+msgid "The authors of the software, employees, copyright holders, cannot retrieve your private keys or passwords if you lose or forget them and cannot guarantee transaction confirmation as they do not have control over the Bitcoin network."
+msgstr "Οι συγγραφείς του λογισμικού, οι εργαζόμενοι και οι συνεργάτες του  οι κατόχοι πνευματικών δικαιωμάτων, δεν μπορούν να ανακτήσουν ιδιωτικά κλειδιά ή τους κωδικούς πρόσβασης σας, εάν χάσετε ή ξεχασετε αυτούς και δεν μπορούν να εγγυηθούν την επιβεβαίωση της συναλλαγής, δεδομένου ότι δεν έχουν τον έλεγχο του δικτύου Blackcoin."
 
 #: public/views/import.html
 msgid "The derivation path"
@@ -1666,8 +1666,8 @@ msgid "The request could not be understood by the server"
 msgstr ""
 
 #: public/views/includes/terms.html
-msgid "The software does not constitute an account where BitPay or other third parties serve as financial intermediaries or custodians of your bitcoin."
-msgstr "Το λογισμικό δεν αποτελεί ένα λογαριασμό όπου το BitPay ή άλλα τρίτα μέρη χρησιμεύουν ως ενδιάμεσοι χρηματοπιστωτικοί οργανισμοί ή θεματοφύλακες των bitcoin σας."
+msgid "The software does not constitute an account other third parties serve as financial intermediaries or custodians of your bitcoin."
+msgstr "Το λογισμικό δεν αποτελεί ένα λογαριασμό όπου άλλα τρίτα μέρη χρησιμεύουν ως ενδιάμεσοι χρηματοπιστωτικοί οργανισμοί ή θεματοφύλακες των blackcoin σας."
 
 #: public/views/includes/terms.html
 msgid "The software you are about to use functions as a free, open source, and multi-signature digital wallet."

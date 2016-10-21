@@ -29,7 +29,7 @@ msgstr "[skrytý zůstatek]"
 
 #: src/js/controllers/walletHome.js
 msgid "{{fee}} will be deducted for bitcoin networking fees"
-msgstr "{{fee}} bude odečteno jako poplatek bitcoinové síti"
+msgstr "{{fee}} bude odečteno jako poplatek blackcoinové síti"
 
 #: public/views/includes/confirm-tx.html
 msgid "{{feeRateStr}} of the transaction"
@@ -57,8 +57,8 @@ msgid "* A payment proposal can be deleted if 1) you are the creator, and no oth
 msgstr "* Návrh k platbě může být odstraněn pokud 1) jste jej vytvořil(a) a žádný spoluplátce jej nepodepsal 2) Uběhlo 24 hodin od vytvoření návrhu."
 
 #: public/views/includes/terms.html
-msgid "<b>IF YOU LOSE ACCESS TO YOUR COPAY WALLET OR YOUR ENCRYPTED PRIVATE KEYS AND YOU HAVE NOT SEPARATELY STORED A BACKUP OF YOUR WALLET AND CORRESPONDING PASSWORD, YOU ACKNOWLEDGE AND AGREE THAT ANY BITCOIN YOU HAVE ASSOCIATED WITH THAT COPAY WALLET WILL BECOME INACCESSIBLE.</b>"
-msgstr "<b>POKUD ZTRATÍTE PŘÍSTUP K VAŠI SPOLUPLÁTCOVSKÉ PENĚŽENCE NEBO VAŠÍM ŠIFROVANÝM KLÍČŮM A NEMÁTE ULOŽENOU ZÁLOHU VAŠI PENĚŽENKY A HESLEM ZVLÁŠTĚ, BERETE NA VĚDOMÍ ŽE VŠECHNY BITCOINY ULOŽENÉ V TÉTO SPOLUPLÁTCOVSKÉ PENĚŽENCE NEBUDOU DOSTUPNÉ. </b>"
+msgid "<b>IF YOU LOSE ACCESS TO YOUR PAYBLK WALLET OR YOUR ENCRYPTED PRIVATE KEYS AND YOU HAVE NOT SEPARATELY STORED A BACKUP OF YOUR WALLET AND CORRESPONDING PASSWORD, YOU ACKNOWLEDGE AND AGREE THAT ANY BLACKCOINS YOU HAVE ASSOCIATED WITH THAT PAYBLK WALLET WILL BECOME INACCESSIBLE.</b>"
+msgstr "<b>POKUD ZTRATÍTE PŘÍSTUP K VAŠI SPOLUPLÁTCOVSKÉ PENĚŽENCE NEBO VAŠÍM ŠIFROVANÝM KLÍČŮM A NEMÁTE ULOŽENOU ZÁLOHU VAŠI PENĚŽENKY A HESLEM ZVLÁŠTĚ, BERETE NA VĚDOMÍ ŽE VŠECHNY BLACKCOINY ULOŽENÉ V TÉTO SPOLUPLÁTCOVSKÉ PENĚŽENCE NEBUDOU DOSTUPNÉ. </b>"
 
 #: public/views/backup.html
 msgid "<b>OR</b> 1 wallet export file and the remaining quorum of wallet recovery phrases (e.g. in a 3-5 wallet: 1 wallet export file + 2 wallet recovery phrases of any of the other copayers)."
@@ -74,11 +74,11 @@ msgstr ""
 
 #: public/views/disclaimer.html
 msgid "A multisignature bitcoin wallet"
-msgstr "A vícepodpisová bitcoin peněženka"
+msgstr "A vícepodpisová blackcoin peněženka"
 
 #: public/views/preferencesGlobal.html
 msgid "About Copay"
-msgstr "O Copay"
+msgstr "O Payblk"
 
 #: public/views/modals/txp-details.html
 #: src/js/services/confirmDialog.js
@@ -152,7 +152,7 @@ msgstr "Název pro <i>{{index.walletName}}</i>"
 #: public/views/preferencesLanguage.html
 #: public/views/translators.html
 msgid "All contributions to Copay's translation are welcome. Sign up at crowdin.com and join the Copay project at"
-msgstr "Všichni spoluúčastníci překladů Copay jsou vítání. Přihlaště se na crowdin.com a přidejte se k projektu Copay na"
+msgstr "Všichni spoluúčastníci překladů Payblk jsou vítání. Přihlaště se na crowdin.com a přidejte se k projektu Payblk na"
 
 #: public/views/includes/terms.html
 msgid "All transaction requests are irreversible."
@@ -245,11 +245,11 @@ msgstr "BIP32 cesta pro derivaci adres"
 
 #: public/views/walletHome.html
 msgid "Bitcoin address"
-msgstr "Bitcoin adresa"
+msgstr "Blackcoin adresa"
 
 #: public/views/preferencesGlobal.html
 msgid "Bitcoin Network Fee Policy"
-msgstr "Zásady poplatků bitcoinové sítě"
+msgstr "Zásady poplatků blackcoinové sítě"
 
 #: public/views/preferencesFee.html
 msgid "Bitcoin transactions may include a fee collected by miners on the network. The higher the fee, the greater the incentive a miner has to include that transaction in a block. Current fees are determined based on network load and the selected policy."
@@ -257,7 +257,7 @@ msgstr ""
 
 #: public/views/paymentUri.html
 msgid "Bitcoin URI is NOT valid!"
-msgstr "Bitcoin URI neni platná!"
+msgstr "Blackcoin URI neni platná!"
 
 #: public/views/modals/txp-details.html
 msgid "Broadcast Payment"
@@ -488,7 +488,7 @@ msgstr "Chyba spojování peněženek"
 
 #: src/js/controllers/walletHome.js
 msgid "Could not recognize a valid Bitcoin QR Code"
-msgstr "Bitcoin QR kód nebyl rozpoznán"
+msgstr "Blackcoin QR kód nebyl rozpoznán"
 
 #: src/js/controllers/modals/txpDetails.js
 msgid "Could not reject payment"
@@ -847,8 +847,8 @@ msgid "Importing Wallet..."
 msgstr "Importuji peněženku..."
 
 #: public/views/includes/terms.html
-msgid "In no event shall the authors of the software, employees and affiliates of Bitpay, copyright holders, or BitPay, Inc. be held liable for any claim, damages or other liability, whether in an action of contract, tort, or otherwise, arising from, out of or in connection with the software."
-msgstr "Za žádných okolností autoři softwaru, zaměstnanci a přidružené osoby z Bitpay, vlastníci ochranných známek, BitPay, Inc nejsou odpovědni za škody nebo náhradu nákladů, plynoucí z používání tohoto softwaru."
+msgid "In no event shall the authors of the software, employees, copyright holders, be held liable for any claim, damages or other liability, whether in an action of contract, tort, or otherwise, arising from, out of or in connection with the software."
+msgstr "Za žádných okolností autoři softwaru, zaměstnanci a přidružené osoby, vlastníci ochranných známek, nejsou odpovědni za škody nebo náhradu nákladů, plynoucí z používání tohoto softwaru."
 
 #: public/views/backup.html
 msgid "In order to verify your wallet backup, please type your password:"
@@ -894,7 +894,7 @@ msgstr "Neplatná cesta derivace"
 
 #: src/js/controllers/copayers.js
 msgid "Invitation to share a Copay Wallet"
-msgstr "Pozvánka ke sdílené Copay Peněžence"
+msgstr "Pozvánka ke sdílené Payblk Peněžence"
 
 #: public/views/translators.html
 msgid "Italian"
@@ -915,7 +915,7 @@ msgstr "Spojit"
 
 #: src/js/controllers/copayers.js
 msgid "Join my Copay wallet. Here is the invitation code: {{secret}} You can download Copay for your phone or desktop at https://copay.io"
-msgstr "Propojení mé Copay peněženky. Toto je kód pozvánky: {{secret}} Copay je možné stáhnout do telefonu nebo počítače na https://copay.io"
+msgstr "Propojení mé Payblk peněženky. Toto je kód pozvánky: {{secret}} Payblk je možné stáhnout do telefonu nebo počítače na https://copay.io"
 
 #: public/views/add.html
 msgid "Join shared wallet"
@@ -943,7 +943,7 @@ msgstr "Poslední adresa peněženky"
 
 #: public/views/backup.html
 msgid "Learn more about Copay backups"
-msgstr "Dozvědět se více o zálohování Copay"
+msgstr "Dozvědět se více o zálohování Payblk"
 
 #: public/views/preferencesFee.html
 msgid "Loading..."
@@ -1013,7 +1013,7 @@ msgstr "Více příjemců"
 
 #: public/views/walletHome.html
 msgid "My Bitcoin address"
-msgstr "Moje bitcoin adresa"
+msgstr "Moje blackcoin adresa"
 
 #: public/views/modals/addressbook.html
 msgid "My contacts"
@@ -1262,7 +1262,7 @@ msgstr "Potvrďte pořadí slov pro potvrzení správnosti zálohy."
 
 #: src/js/services/bwcError.js
 msgid "Please upgrade Copay to perform this action"
-msgstr "Pro tuto funkci je potřeba aktualizovat Copay"
+msgstr "Pro tuto funkci je potřeba aktualizovat Payblk"
 
 #: public/views/uri.html
 msgid "Please wait to be redirected..."
@@ -1302,7 +1302,7 @@ msgstr "Soukromý klíč je šifrovaný, nelze podepsat"
 
 #: public/views/preferencesGlobal.html
 msgid "Push notifications for Copay are currently disabled. Enable them in the Settings app."
-msgstr "Oznámení pro Copay jsou v současné době zakázána. Povolte v nastavení aplikace."
+msgstr "Oznámení pro Payblk jsou v současné době zakázána. Povolte v nastavení aplikace."
 
 #: public/views/export.html
 #: public/views/modals/customized-amount.html
@@ -1468,7 +1468,7 @@ msgstr "Odeslat adresy emailem"
 
 #: public/views/includes/confirm-tx.html
 msgid "Send bitcoin"
-msgstr "Odeslat BTC"
+msgstr "Odeslat BLK"
 
 #: public/views/export.html
 #: public/views/preferencesLogs.html
@@ -1633,8 +1633,8 @@ msgid "Terms of Use"
 msgstr "Podmínky používání"
 
 #: public/views/includes/terms.html
-msgid "The authors of the software, employees and affiliates of Bitpay, copyright holders, and BitPay, Inc. cannot retrieve your private keys or passwords if you lose or forget them and cannot guarantee transaction confirmation as they do not have control over the Bitcoin network."
-msgstr "Autoři tohoto software, zaměstnanci a ostatní z Bitpay, vlastníci ochranných známek, BitPay, Inc, nemůže obnovit vaše soukromé klíče nebo hesla, pokud dojde ke ztrátě a negarantuje potvrzení transakcí, protože nedrží kontrolu nad Bitcoin sítí."
+msgid "The authors of the software, employees, copyright holders, cannot retrieve your private keys or passwords if you lose or forget them and cannot guarantee transaction confirmation as they do not have control over the Bitcoin network."
+msgstr "Autoři tohoto software, zaměstnanci a ostatní, vlastníci ochranných známek, nemůže obnovit vaše soukromé klíče nebo hesla, pokud dojde ke ztrátě a negarantuje potvrzení transakcí, protože nedrží kontrolu nad Blackcoin sítí."
 
 #: public/views/import.html
 msgid "The derivation path"
@@ -1666,8 +1666,8 @@ msgid "The request could not be understood by the server"
 msgstr "Požadavek nebyl serverem pochopen"
 
 #: public/views/includes/terms.html
-msgid "The software does not constitute an account where BitPay or other third parties serve as financial intermediaries or custodians of your bitcoin."
-msgstr "Tento software nepředstavuje účet kde BitPay nebo jiné třetí strany slouží jako finanční zprostředkovatelé nebo správci vašeho bitcoin."
+msgid "The software does not constitute an account where other third parties serve as financial intermediaries or custodians of your bitcoin."
+msgstr "Tento software nepředstavuje účet kde jiné třetí strany slouží jako finanční zprostředkovatelé nebo správci vašeho blackcoin."
 
 #: public/views/includes/terms.html
 msgid "The software you are about to use functions as a free, open source, and multi-signature digital wallet."
@@ -1696,7 +1696,7 @@ msgstr "Pro platbu je potřeba založit peněženku"
 
 #: src/js/controllers/index.js
 msgid "There is a new version of Copay. Please update"
-msgstr "Existuje nová verze Copay. Proveďte aktualizaci"
+msgstr "Existuje nová verze Payblk. Proveďte aktualizaci"
 
 #: src/js/controllers/import.js
 msgid "There is an error in the form"
@@ -1971,7 +1971,7 @@ msgstr "Rezervujeme si právu upravit podmínky užívání."
 
 #: public/views/disclaimer.html
 msgid "WELCOME TO COPAY"
-msgstr "VÍTEJTE V COPAY"
+msgstr "VÍTEJTE V PAYBLK"
 
 #: public/views/includes/terms.html
 msgid "While the software has undergone beta testing and continues to be improved by feedback from the open-source user and developer community, we cannot guarantee that there will be no bugs in the software."

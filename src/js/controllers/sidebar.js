@@ -1,13 +1,10 @@
 'use strict';
 
 angular.module('copayApp.controllers').controller('sidebarController',
-  function($rootScope, $timeout, $ionicScrollDelegate, lodash, profileService, configService, go, platformInfo, $window) {
+  function($rootScope, $timeout, $ionicScrollDelegate, lodash, profileService, configService, go, platformInfo) {
     var self = this;
     self.isWindowsPhoneApp = platformInfo.isWP && platformInfo.isCordova;
     self.walletSelection = false;
-
-    self.bitpayCardEnabled = $window.appConfig && $window.appConfig._enabledExtensions.debitcard;
-
 
     // wallet list change
     $rootScope.$on('Local/WalletListUpdated', function(event) {

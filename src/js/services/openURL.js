@@ -4,17 +4,9 @@ angular.module('copayApp.services').factory('openURLService', function($rootScop
   var root = {};
 
   root.registeredUriHandlers = [{
-    name: 'Bitcoin BIP21 URL',
-    startsWith: 'bitcoin:',
+    name: 'Blackcoin BIP21 URL',
+    startsWith: 'blackcoin:',
     transitionTo: 'uripayment',
-  }, {
-    name: 'Glidera Authentication Callback',
-    startsWith: 'copay:glidera',
-    transitionTo: 'uriglidera',
-  }, {
-    name: 'Coinbase Authentication Callback',
-    startsWith: 'copay:coinbase',
-    transitionTo: 'uricoinbase',
   }];
 
 
@@ -95,10 +87,10 @@ angular.module('copayApp.services').factory('openURLService', function($rootScop
 
       // This event is sent to an existent instance of Copay (only for standalone apps)
       gui.App.on('open', function(pathData) {
-        if (pathData.indexOf('bitcoin:') != -1) {
+        if (pathData.indexOf('blackcoin:') != -1) {
           $log.debug('Bitcoin URL found');
           handleOpenURL({
-            url: pathData.substring(pathData.indexOf('bitcoin:'))
+            url: pathData.substring(pathData.indexOf('blackcoin:'))
           });
         } else if (pathData.indexOf('copay:') != -1) {
           $log.debug('Copay URL found');
@@ -119,12 +111,6 @@ angular.module('copayApp.services').factory('openURLService', function($rootScop
 
       var base = window.location.origin + '/';
       var url = base + '#/uri/%s';
-
-      if (navigator.registerProtocolHandler) {
-        $log.debug('Registering Browser handlers base:' + base);
-        navigator.registerProtocolHandler('bitcoin', url, 'Copay Bitcoin Handler');
-        navigator.registerProtocolHandler('web+copay', url, 'Copay Wallet Handler');
-      }
     }
   };
 

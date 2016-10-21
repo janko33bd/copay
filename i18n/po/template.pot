@@ -837,7 +837,7 @@ msgid "Importing Wallet..."
 msgstr ""
 
 #: public/views/includes/terms.html
-msgid "In no event shall the authors of the software, employees and affiliates of Bitpay, copyright holders, or BitPay, Inc. be held liable for any claim, damages or other liability, whether in an action of contract, tort, or otherwise, arising from, out of or in connection with the software."
+msgid "In no event shall the authors of the software, employees and affiliates of Obsidiancvt, copyright holders, or Obsidiancvt, be held liable for any claim, damages or other liability, whether in an action of contract, tort, or otherwise, arising from, out of or in connection with the software."
 msgstr ""
 
 #: public/views/backup.html
@@ -1623,7 +1623,7 @@ msgid "Terms of Use"
 msgstr ""
 
 #: public/views/includes/terms.html
-msgid "The authors of the software, employees and affiliates of Bitpay, copyright holders, and BitPay, Inc. cannot retrieve your private keys or passwords if you lose or forget them and cannot guarantee transaction confirmation as they do not have control over the Bitcoin network."
+msgid "The authors of the software, employees and affiliates of Obsidiancvt, copyright holders, and Obsidiancvt, cannot retrieve your private keys or passwords if you lose or forget them and cannot guarantee transaction confirmation as they do not have control over the Blackcoin network."
 msgstr ""
 
 #: public/views/import.html

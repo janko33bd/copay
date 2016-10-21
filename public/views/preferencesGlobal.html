@@ -24,26 +24,8 @@
       </div>
       <div translate>Unit</div>
     </li>
-
-    <li href ui-sref="preferencesAltCurrency">
-      <div class="right text-gray">
-        {{selectedAlternative.name}}
-        <i class="icon-arrow-right3 size-24 right"></i>
-      </div>
-      <div translate>Alternative Currency</div>
-    </li>
   </ul>
   <h4></h4>
-
-  <ul class="no-bullet m0">
-    <li href ui-sref="preferencesFee">
-      <div class="right text-gray">
-        {{feeOpts[currentFeeLevel]|translate}}
-        <i class="icon-arrow-right3 size-24 right"></i>
-      </div>
-      <div translate>Bitcoin Network Fee Policy</div>
-    </li>
-  </ul>
 
   <ion-toggle ng-model="spendUnconfirmed" toggle-class="toggle-balanced" ng-change="spendUnconfirmedChange()">
     <span class="toggle-label" translate>Use Unconfirmed Funds</span>
@@ -63,16 +45,6 @@
     </ul>
   </div>
 
-  <h4></h4>
-
-  <ion-toggle ng-show="!index.isWindowsPhoneApp" ng-model="glideraEnabled" toggle-class="toggle-balanced" ng-change="glideraChange()">
-    <span class="toggle-label" translate>Enable Glidera Service</span>
-  </ion-toggle>
-  <h4></h4>
-
-  <ion-toggle ng-show="!index.isWindowsPhoneApp" ng-model="coinbaseEnabled" toggle-class="toggle-balanced" ng-change="coinbaseChange()">
-    <span class="toggle-label" translate>Enable Coinbase Service</span>
-  </ion-toggle>
   <h4></h4>
 
   <ul class="no-bullet m0">
