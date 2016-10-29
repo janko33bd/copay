@@ -29,7 +29,7 @@ msgstr "[隐藏余额]"
 
 #: src/js/controllers/walletHome.js
 msgid "{{fee}} will be deducted for bitcoin networking fees"
-msgstr "扣除黑币网络费 {{fee}}"
+msgstr "扣除黑币网络费用 {{fee}}"
 
 #: public/views/includes/confirm-tx.html
 msgid "{{feeRateStr}} of the transaction"
@@ -185,7 +185,7 @@ msgstr "你确定要删除恢复短语吗?"
 #: src/js/controllers/copayers.js
 #: src/js/controllers/preferencesDelete.js
 msgid "Are you sure you want to delete this wallet?"
-msgstr "确定要删除这钱包？"
+msgstr "确定要删除这个钱包吗？"
 
 #: public/views/includes/walletInfo.html
 msgid "Auditable"
@@ -231,7 +231,7 @@ msgstr "地址余额"
 #: public/views/paperWallet.html
 #: public/views/walletHome.html
 msgid "Before receiving funds, you must backup your wallet. If this device is lost, it is impossible to access your funds without a backup."
-msgstr "接收资金前, 务必备份你的钱包。如果你遗失此设备，就无法在没有备份的情况下找回资金。"
+msgstr "接收资金前, 务必备份你的钱包。如果你遗失此设备，将无法在没有备份的情况下找回资金。"
 
 #: public/views/preferencesInformation.html
 msgid "BETA: Android Key Derivation Test:"
@@ -253,7 +253,7 @@ msgstr "黑币网络手续费策略"
 
 #: public/views/preferencesFee.html
 msgid "Bitcoin transactions may include a fee collected by miners on the network. The higher the fee, the greater the incentive a miner has to include that transaction in a block. Current fees are determined based on network load and the selected policy."
-msgstr "黑币交易可能包括网络矿工所收取的费用。收费越高，交易数据块包含矿工的奖励也越大。当前收费的确定取决于网络负载和所选定的策略。"
+msgstr "黑币交易可能包括网络矿工所收取的费用。收费越高，交易区块越大矿工的奖励也越多。当前收费的数值取决于网络负载和所选定的策略。"
 
 #: public/views/paymentUri.html
 msgid "Bitcoin URI is NOT valid!"
@@ -322,7 +322,7 @@ msgstr "中文"
 
 #: public/views/import.html
 msgid "Choose a backup file from your computer"
-msgstr "从你的计算机选择一个备份文件"
+msgstr "从你的电脑选择一个备份文件"
 
 #: public/views/preferencesHistory.html
 msgid "Clear cache"
@@ -848,7 +848,7 @@ msgstr "正在导入钱包..."
 
 #: public/views/includes/terms.html
 msgid "In no event shall the authors of the software, employees, copyright holders, be held liable for any claim, damages or other liability, whether in an action of contract, tort, or otherwise, arising from, out of or in connection with the software."
-msgstr "在任何情况下，软件作者、的员工及附属公司、版权持有人或. 均不对由软件引起，与软件有关联或无关联，所任何索赔、损害或其他责任，无论是合同诉讼、侵权行为或其他，产生从本合同或与本软件有关。"
+msgstr "在任何情况下，该软件的作者、员工及附属公司、版权所有人等等均不承担由于软件或与软件有关的任何索赔，损害赔偿或其他责任（无论是在合同、侵权或其他方面等之类的行为）。"
 
 #: public/views/backup.html
 msgid "In order to verify your wallet backup, please type your password:"
@@ -869,7 +869,7 @@ msgstr "资金不足"
 
 #: src/js/services/bwcError.js
 msgid "Insufficient funds for fee"
-msgstr "费用的资金不足"
+msgstr "没有足够的资金"
 
 #: public/views/modals/search.html
 #: public/views/walletHome.html
@@ -1105,7 +1105,7 @@ msgstr "一旦抄下你的钱包恢复短语，建议从此设备上删除。"
 
 #: public/views/preferencesInformation.html
 msgid "Only Main (not change) addresses are shown. The addresses on this list were not verified locally at this time."
-msgstr "只显示主要（不改变）的地址。这个时候不本地验证此列表上的地址。"
+msgstr "只显示主要（不改变）的地址，此列表上的地址目前未在本地进行验证。"
 
 #: public/views/preferencesGlobal.html
 msgid "Open Settings app"
@@ -1169,7 +1169,7 @@ msgstr "支付已被接受，但尚未广播"
 
 #: public/views/modals/txp-details.html
 msgid "Payment accepted. It will be broadcasted by Glidera. In case there is a problem, it can be deleted 6 hours after it was created."
-msgstr "支付以被接受。它将由 Glidera 广播。如果出现问题，它可以在创建后的 6 个小时内删除。"
+msgstr "支付已被接受。它将由 Glidera 广播。如果出现问题，它可以在创建后的 6 个小时内删除。"
 
 #: public/views/modals/txp-details.html
 msgid "Payment details"
@@ -1302,7 +1302,7 @@ msgstr "私钥已加密，无法签名"
 
 #: public/views/preferencesGlobal.html
 msgid "Push notifications for Copay are currently disabled. Enable them in the Settings app."
-msgstr "Copay 的推式通知目前未启用。请在设置应用里启用它。"
+msgstr "Payblk 的推送通知目前未启用，请在设置应用里启用它。"
 
 #: public/views/export.html
 #: public/views/modals/customized-amount.html
@@ -1520,7 +1520,7 @@ msgstr "设置支付密码"
 
 #: public/views/preferencesEmail.html
 msgid "Setting up email notifications could weaken your privacy, if the wallet service provider is compromised. Information available to an attacker would include your wallet addresses and its balance, but no more."
-msgstr "设置电邮通知可能会削弱你的隐私，如果钱包服务提供商受到损害。攻击者可能获得的信息包括你的钱包地址及其结余，可仅此而已。"
+msgstr "设置邮件通知可能会涉及影响您的隐私，比如钱包服务提供商受到攻击，攻击者有可能将获知你的钱包地址及余额信息，当然仅此而已。"
 
 #: public/views/includes/sidebar.html
 msgid "Settings"
@@ -1634,7 +1634,7 @@ msgstr "使用条款"
 
 #: public/views/includes/terms.html
 msgid "The authors of the software, employees, copyright holders, cannot retrieve your private keys or passwords if you lose or forget them and cannot guarantee transaction confirmation as they do not have control over the Bitcoin network."
-msgstr "如果你遗失或忘记私钥或密码，软件作者、的员工及附属公司、版权持有人或 均无法取回你的私钥或密码，由于他们没有黑币网络的管理权，他们并不能保证交易确认。"
+msgstr "如果你遗失或忘记私钥或密码，软件的作者、员工及附属公司、版权持有人等均无法取回你的私钥或密码，由于他们没有黑币网络的管理权，他们也不能保证交易确认。"
 
 #: public/views/import.html
 msgid "The derivation path"
@@ -1667,7 +1667,7 @@ msgstr "服务器不理解此请求"
 
 #: public/views/includes/terms.html
 msgid "The software does not constitute an account where  other third parties serve as financial intermediaries or custodians of your bitcoin."
-msgstr "此软件并不构成一个账户，让 或其他第三方作为金融中介机构或保管人以保管你的黑币。"
+msgstr "此软件并不构成一个账户，其他第三方作为金融中介机构或保管人以保管你的黑币。"
 
 #: public/views/includes/terms.html
 msgid "The software you are about to use functions as a free, open source, and multi-signature digital wallet."
@@ -1975,7 +1975,7 @@ msgstr "欢迎使用 COPAY"
 
 #: public/views/includes/terms.html
 msgid "While the software has undergone beta testing and continues to be improved by feedback from the open-source user and developer community, we cannot guarantee that there will be no bugs in the software."
-msgstr "虽然软件经历了 beta 测试，并持续获得开源用户和开发者社区的反馈而改进，我们无法保证软件没有错误。"
+msgstr "虽然软件经历了 beta 测试并持续获得开源用户和开发者社区的反馈而进行改进，但是我们仍然无法保证软件没有错误"
 
 #: public/views/backup.html
 msgid "Write your wallet recovery phrase"
@@ -2007,7 +2007,7 @@ msgstr "你承担使用本软件的任何和所有相关风险。"
 
 #: public/views/backup.html
 msgid "You backed up your wallet. You can now restore this wallet at any time."
-msgstr "你已备份了钱包。你现在可以在任何时候复原此钱包。"
+msgstr "你已备份了钱包。你现在可以在任何时候恢复此钱包。"
 
 #: public/views/backup.html
 msgid "You can safely install your wallet on another device and use it from multiple devices at the same time."
